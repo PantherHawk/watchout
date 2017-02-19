@@ -1,17 +1,18 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel='stylesheet' type='css' href='styles.css'>
+    <link rel='stylesheet' type='text/css' href='styles.css'>
   </head>
   <body>
   <div class="container">
     <div class="scoreboard">
       <!-- Modify the scoreboard when important events occur in your game! -->
-      <div class="highscore">High score: <span>0</span></div>
-      <div class="current">Current score: <span>0</span></div>
-      <div class="collisions">Collisions: <span>0</span></div>
+      <div class="highscore textcolor">High score: <span>0</span></div>
+      <div class="current textcolor">Current score: <span>0</span></div>
+      <div class="collisions textcolor">Collisions: <span>0</span></div>
     </div>
     <div class="board"><div class="mouse"></div></div>
+    <div class="enemies"></div>
   </div>
     <script src="lib/d3.js" charset="utf-8"></script>
    <!--<script src="https://d3js.org/d3.v4.min.js"></script>-->

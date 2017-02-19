@@ -1,8 +1,23 @@
 /* your beautiful css styling goes here! */
 
-/*.asteroids{*/
-  /*background-image:url('asteroid.png');*/
-/*}*/
+.image{
+-webkit-transform: rotate(360deg);
+ -webkit-animation-duration: 0.5s;
+ -webkit-animation-iteration-count: infinite;
+ -webkit-animation-timing-function: linear;
+  -webkit-transform-origin: 50% 50%;
+
+}
+
+.textcolor{
+    color: white;
+    font-variant: small-caps;
+    font-size: 20px;
+}
+
+.highscore {
+
+}
 
 /* Note: an asteroid image is included in this repo.
 Feel free to use it if you like. */
